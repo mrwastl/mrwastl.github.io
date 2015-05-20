@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Dummy entry"
+date:   2015-05-20 22:00:00
+categories: test
+---
+This is a test.
+
