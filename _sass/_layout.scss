@@ -191,7 +191,6 @@
 }
 
 
-
 /**
  * Posts
  */
@@ -235,4 +234,29 @@
             font-size: 18px;
         }
     }
+}
+
+/**
+ * custom
+ */
+
+table.github-projects {
+  background-color: #fdfdfd;
+  padding: 0.5em;
+
+  tr {
+    vertical-align: top;
+  }
+
+  th {
+    background-color: #eeeeee;
+  }
+
+  td, th {
+    padding: 0px 0.25em;
+  }
+
+  td.n {
+    white-space: nowrap;
+  }
 }

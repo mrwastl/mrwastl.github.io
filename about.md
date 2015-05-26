@@ -11,6 +11,6 @@ email-address: {{ site.email }}
 
 Projects:
 
- * [github repositories, forks and contributions]({{site.address}})
+ * [github repositories, forks and contributions](/)
  * [serdisplib - library for controlling several displays / display-modules with build-in controllers](http://serdisplib.sourceforge.net)
 

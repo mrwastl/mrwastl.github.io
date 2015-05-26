@@ -4,20 +4,21 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Projects</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<table class="github-projects">
+  <tr><th>Name</th><th>Description</th><th>Type</th></tr>
+  {% for page in site.pages %}
+    {% assign doc_type = page.url | remove_first: '/' | split: '/' | first %}
+    {% if page.title and doc_type == 'projects'  %}
+  <tr>
+    <td class="n"><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></td>
+    <td class="d">{{ page.description }}</td>
+    <td class="t">{{ page.category | capitalize}}</td>
+  </tr>
+    {% endif %}
+  {% endfor %}
+</table>
 
   <!--p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
-
 </div>
