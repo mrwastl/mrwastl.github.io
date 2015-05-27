@@ -14,7 +14,7 @@ Description
 {{ page.description }}
 
 * **Location on github**: [mrwastl/{{page.title}}]({{page.giturl}})
-* **Documentation**: [README.md]({{page.giturl}}/blob/master/README.txt)
+* **Documentation**: [README.md]({{page.giturl}}/blob/master/README.md)
 
 History
 -------
