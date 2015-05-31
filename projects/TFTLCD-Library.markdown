@@ -17,7 +17,7 @@ Description
 
 * **Location on github**: [mrwastl/{{page.title}}]({{page.giturl}})
 * **Fork** of  [{{page.origauthor}}/{{page.title}}]({{page.origurl}})
-* **Documentation**: [README.md]({{page.giturl}}/blob/master/README.md)
+* **Documentation**: [README.txt]({{page.giturl}}/blob/master/README.txt)
 
 Differences to original version
 -------------------------------
